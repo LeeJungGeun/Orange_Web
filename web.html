@@ -2,7 +2,6 @@
     <html>
             <head>
                    <link rel="stylesheet" type="text/css" href="index.css">
-                   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
                    <script src="https://kit.fontawesome.com/3e7b652510.js" crossorigin="anonymous"></script>
                    <style>
                        
@@ -28,18 +27,31 @@
                     <h1>HTML Web</h1>
                 </div>
                 <div id="aside">
-                    <button id="bar" class="fas fa-bars fa-2x" onclick="bar_open()"></button><br>
-                        <ul>
-                            <a href ="#"><li>link 1</li></a><br>
-                            <a href ="#"><li>link 2</li></a><br>
-                            <a href ="#"><li>link 3</li></a><br>
-                            <a href ="#"><li>link 4</li></a><br>
-                            <a href ="#"><li>link 5</li></a><br>
-                        </ul>
-                    </div>    
+                    <button id="bar" class="fas fa-bars fa-2x" onclick="bar_open()"></button>
+                    <Input type="checkbox" id=toggle>
+                        
+                 
+                    <div class="sidebar-block" style="display:none"  id="sidebar">
+                        <button onclick="bar_close()" style="background-color: white; font-size: 30px; width:100%">Close</button><br>
+                            <a href ="#" style="font-size:30px">link 1</a><br>
+                            <a href ="#" style="font-size:30px">link 2</a><br>
+                            <a href ="#" style="font-size:30px">link 3</a><br>
+                            <a href ="#" style="font-size:30px">link 4</a><br>
+                            <a href ="#" style="font-size:30px">link 5</a><br>
+                    </div>
                 </div>
                 <main>
                     main
                 </main>
+                <script>
+                    function bar_open() {
+                      document.getElementById("sidebar").style.width = "100%";
+                      document.getElementById("sidebar").style.display = "block";
+                    }
+                    
+                    function bar_close() {
+                      document.getElementById("sidebar").style.display = "none";
+                    }
+                    </script>
             </body>
     </html>

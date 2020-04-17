@@ -48,3 +48,27 @@ footer{
   border: solid 5px #ff0000;
   background-color:yellowgreen;
 }
+a:link {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  text-align:center
+}
+a:visited {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: pink;
+  background-color: white;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+  background-color: white;
+  text-decoration: none;
+}
+#toggle{
+  display:none
+}
