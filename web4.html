@@ -11,22 +11,32 @@
                         <h1 style="text-align: center;">HTML Side Menu</h1>
                     </div>
                     <div id="section2">
+                       <h1>L J K</h1>
+                    </div>
                             <button id="bar" class="fas fa-bars fa-2x" onclick="bar_open()"></button>
                             <button id="bar2" class="fas fa-bars fa-2x" onclick="bar_close()"></button>
-                    </div>
-                    
                 </div>
                 <div id="aside">
                     <div class="sidebar-block" id="sidebar">
-                        <a href ="web.html" class="sidemenu">menu 001</a><br>
-                        <a href ="web2.html" class="sidemenu">menu 002</a><br>
-                        <a href ="web3.html" class="sidemenu">menu 003</a><br>
-                        <a href ="web4.html" class="sidemenu">menu 004</a><br>
-                        <a href ="web5.html" class="sidemenu">menu 005</a><br>
+                        <ul>
+                            <li><a href ="web.html" class="sidemenu">Main Page</a><br></li>
+                            <li><a href ="web2.html" class="sidemenu">HTML</a><br></li>
+                            <li><a href ="web3.html" class="sidemenu">CSS </a><br></li>
+                            <li><a href ="web4.html" class="sidemenu">Java Script</a><br></li>
+                            <li><a href ="web5.html" class="sidemenu">PHP</a><br></li>
+                        </ul>
                     </div>
                 </div>
                 <main>
-                    <h1>Main Page 4</h1>
+                    <h1>Java Script</h1>
+                    <p>Java Script란 자바스크립트는 객체 기반의 스크립트 언어로 웹의 동작을 구현한다.</br>
+                        이 언어는 웹 브라우저 내에서 주로 사용하며,<br/>
+                        다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다.<br/>
+                        또한 Node.js와 같은 런타임 환경과 같이 서버 사이드 네트워크 프로그래밍에도 사용되고 있다.<br/>
+                        자바스크립트가 자바와 구문이 유사한 점도 있지만<br/>
+                        이는 사실 두 언어 모두 C 언어의 기본 구문에 바탕을 뒀기 때문이고<br/>
+                        자바와 자바스크립트는 직접적인 관련성이 없다.</p> 
+                    <p> <a href="web.html"><h3>Main Page로 이동</h3></a></p>
                 </main>
                 <script>
                     function bar_open() {
@@ -43,6 +53,6 @@
                         document.getElementById("sidebar").style.display = "none";
                         document.getElementById("bar2").style.display="none";
                     }
-                    </script>
+                </script>
             </body>
     </html>
