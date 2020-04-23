@@ -2,19 +2,18 @@
     <html>
             <head>
                    <link rel="stylesheet" type="text/css" href="index.css">
-                   <script src="https://kit.fontawesome.com/3e7b652510.js" crossorigin="anonymous"></script>
+                   <script src="script.js"></script>
             </head>
             <body>
                 
                 <div id = "header";>
                     <div id="section">
-                        <h1 style="text-align: center;">HTML Side Menu</h1>
+                        <h1 class="textcenter">HTML Side Menu</h1>
                     </div>
                     <div id="section2">
                        <h1>L J K</h1>
                     </div>
-                            <button id="bar" class="fas fa-bars fa-2x" onclick="bar_open()"></button>
-                            <button id="bar2" class="fas fa-bars fa-2x" onclick="bar_close()"></button>
+                    <button id="bar2" onclick="bar_()"><img src = "canvas.png" class="canvas"></button>
                 </div>
                 <div id="aside">
                     <div class="sidebar-block" id="sidebar">
@@ -36,21 +35,5 @@
                         즉, HTML 구조는 그대로 두고 CSS 파일만 변경해도 전혀 다른 웹사이트처럼 꾸밀 수 있다. <br/></p>
                     <p> <a href="web.html"><h3>Main Page로 이동</h3></a></p>
                 </main>
-                <script>
-                    function bar_open() {
-                        document.getElementById("bar2").style.display="block";
-                        document.getElementById("aside").style.display = "block";
-                        document.getElementById("sidebar").style.width = "100%";
-                        document.getElementById("sidebar").style.display = "block";
-                        document.getElementById("bar").style.display="none";
-                    }
-                    
-                    function bar_close() {
-                        document.getElementById("bar").style.display="block";
-                        document.getElementById("aside").style.display = "none";
-                        document.getElementById("sidebar").style.display = "none";
-                        document.getElementById("bar2").style.display="none";
-                    }
-                    </script>
             </body>
     </html>
