@@ -27,7 +27,7 @@
   color:white;
   background-color: #0087ed;
 }
-main{
+#main{
   height:800px;
   border: solid 1px #0087ed;
   background-color: white;
@@ -90,4 +90,11 @@ ul li{
 }
 .textcenter{
   text-align:center;
+}
+.include{
+  width:1000px;
+  height:600px;
+}
+#web2{
+  display:none;
 }

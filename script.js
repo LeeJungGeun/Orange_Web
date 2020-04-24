@@ -12,3 +12,7 @@ function bar_() {
         x=false;
     }
 }
+function web2_(){
+    document.getElementById("web2").style.display="block";
+    document.getElementById("main").style.display="none";
+}
