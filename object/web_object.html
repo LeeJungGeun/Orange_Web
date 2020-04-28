@@ -1,49 +1,32 @@
 <!DOCTYPE html>
     <html>
-            <head>
-                <link rel="stylesheet" type="text/css" href="index.css">
-                <script src="script.js"></script>
-            </head>
-            <body>
-                
-                <div id = "header";>
-                    <div id="section">
-                        <h1 class="textcenter">HTML Side Menu</h1>
-                    </div>
-                    <div id="section2">
-                       <h1>L J K</h1>
-                    </div>
-                    <button id="bar2" onclick="bar_()"><img src = "canvas.png" class="canvas"></button>
+        <head>
+            <link rel="stylesheet" type="text/css" href="index.css">
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <div id = "header";>
+                <div id="section">
+                    <h1 class="textcenter">HTML Side Menu</h1>
                 </div>
-                <div id="aside">
-                    <div class="sidebar-block" id="sidebar">
-                        <ul>
-                            <li><a href ="web_object.html" class="sidemenu">Main Page</a><br></li>
-                            <li><a href ="#web2" class="sidemenu" onclick="web2_()">HTML</a><br></li>
-                            <li><a href ="#web3" class="sidemenu" onclick="web3_()">CSS </a><br></li>
-                            <li><a href ="#web4" class="sidemenu" onclick="web4_()">Java Script</a><br></li>
-                            <li><a href ="#web5" class="sidemenu" onclick="web5_()">PHP</a><br></li>
-                        </ul>
-                    </div>  
+                <div id="section2">
+                    <h1>L J K</h1>
                 </div>
-                <div id="main">
-                    <h1>Main Page</h1>
-                    <p> 환영합니다. 옆의 메뉴를 이용해 주십시오. <br/>Welcome. Please use the side menu.</p>
-                   
-                </div>
-                <div id=main2>
-                    <div id=web2_>
-                        <object data="web2.html"class="include"> </object>
-                    </div>
-                    <div id=web3_>
-                        <object data="web3.html"class="include"> </object>
-                    </div>
-                    <div id=web4_>
-                        <object data="web4.html"class="include"> </object>
-                    </div>
-                    <div id=web5_>
-                        <object data="web5.html"class="include"> </object>
-                    </div>
-                </div>
-            </body>
+                <button id="bar2" onclick="bar_()"><img src = "canvas.png" class="canvas"></button>
+            </div>
+            <div id="aside">
+                <div class="sidebar-block" id="sidebar">
+                    <ul>
+                        <li><a href ="web1.html" class="sidemenu" target="main2" >Main Page</a><br></li>
+                        <li><a href ="web2.html" class="sidemenu" target="main2" >HTML</a><br></li>
+                        <li><a href ="web3.html" class="sidemenu" target="main2" >CSS </a><br></li>
+                        <li><a href ="web4.html" class="sidemenu" target="main2" >Java Script</a><br></li>
+                        <li><a href ="web5.html" class="sidemenu" target="main2" >PHP</a><br></li>
+                    </ul>
+                </div>  
+            </div>
+            <div id="main">
+                <object data="web1.html" name="main2" id="main2"></object>
+            </div> 
+        </body>
     </html>

@@ -12,35 +12,3 @@ function bar_() {
         x=false;
     }
 }
-function web2_(){
-    document.getElementById("main2").style.display="block";
-    document.getElementById("main").style.display="none";
-    document.getElementById("web2_").style.display="block";
-    document.getElementById("web3_").style.display="none";
-    document.getElementById("web4_").style.display="none";
-    document.getElementById("web5_").style.display="none";
-}
-function web3_(){
-    document.getElementById("main2").style.display="block";
-    document.getElementById("main").style.display="none";
-    document.getElementById("web2_").style.display="none";
-    document.getElementById("web3_").style.display="block";
-    document.getElementById("web4_").style.display="none";
-    document.getElementById("web5_").style.display="none";
-}
-function web4_(){
-    document.getElementById("main2").style.display="block";
-    document.getElementById("main").style.display="none";
-    document.getElementById("web2_").style.display="none";
-    document.getElementById("web3_").style.display="none";
-    document.getElementById("web4_").style.display="block";
-    document.getElementById("web5_").style.display="none";
-}
-function web5_(){
-    document.getElementById("main2").style.display="block";
-    document.getElementById("main").style.display="none";
-    document.getElementById("web2_").style.display="none";
-    document.getElementById("web3_").style.display="none";
-    document.getElementById("web4_").style.display="none";
-    document.getElementById("web5_").style.display="block";
-}
