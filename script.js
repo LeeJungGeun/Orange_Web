@@ -1,5 +1,5 @@
 var x=true;
-function bar_() {
+function menu() {
     if(x==false){
         document.getElementById("aside").style.display = "block";
         document.getElementById("sidebar").style.width = "100%";
