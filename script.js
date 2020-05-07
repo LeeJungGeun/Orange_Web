@@ -1,14 +1,14 @@
-var x=true;
+var toggle=true;
 function menu() {
-    if(x==false){
+    if(toggle!=true){
         document.getElementById("aside").style.display = "block";
         document.getElementById("sidebar").style.width = "100%";
         document.getElementById("sidebar").style.display = "block";
-        x=true;
+        toggle=true;
     }
-    else if(x==true){
+    else if(toggle==true){
         document.getElementById("aside").style.display = "none";
         document.getElementById("sidebar").style.display = "none"; 
-        x=false;
+        toggle=false;
     }
 }
